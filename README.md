@@ -1,7 +1,7 @@
 # Algorithms
 
 #### 1. Sorting and Searching
-
+|                                                              |
 | Linear Search                                                |
 | Ordered Linear Search                                        |
 | Bisection Search                                             |
