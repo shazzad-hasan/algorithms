@@ -7,6 +7,6 @@ def selection_sort(L):
                 
         suffixSt += 1
         
-testlist = [54,26,93,17,77,31,44,55,20]
+testlist = [54,26,93,17,77,31,0,44,55,20]
 selection_sort(testlist)
 print(testlist)
