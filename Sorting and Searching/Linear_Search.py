@@ -23,7 +23,7 @@ def linear_search(L, e):
 
 
 
-def Ordered_Linear_Search(L, e):
+def ordered_linear_search(L, e):
     """ Linear search on sorted list """
     # # using for loop
     # for i in range(len(L)):
@@ -48,5 +48,5 @@ def Ordered_Linear_Search(L, e):
     return found
 
 testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42]
-print(Ordered_Linear_Search(testlist, 17))
-print(Ordered_Linear_Search(testlist, 20))
+print(ordered_linear_search(testlist, 17))
+print(ordered_linear_search(testlist, 20))
