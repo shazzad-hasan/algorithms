@@ -5,9 +5,16 @@
 | :----------------------------------------------------------- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ |
 | [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/Sorting%20and%20Searching/Linear_Search.py) | [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/Sorting%20and%20Searching/Binary_Search.py) | Bubble Sort | [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/Sorting%20and%20Searching/Selection_Sort.py) |
 | Insertion Sort                                               | Shell Sort                                                   | Merge Sort  | Quick Sort                                                   |
-|                                                              |                                                              |             |                                                              |
+| Peak Finding                                                 |                                                              |             |                                                              |
 
-#### 2. Linear Data Stracture
+#### 2. Numerics
+
+|                 |              |                    |                          |
+| --------------- | ------------ | ------------------ | ------------------------ |
+| Newton's method | Square Roots | Integer arithmetic | Karatsuba multiplication |
+|                 |              |                    |                          |
+
+#### 3. Linear Data Stracture
 
 |                       |       |       |                     |
 | --------------------- | ----- | ----- | ------------------- |
