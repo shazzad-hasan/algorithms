@@ -2,10 +2,10 @@
 
 #### 1. Recursion
 
-|           |                 |                   |
-| --------- | --------------- | ----------------- |
-| Factorial | Towers of Hanoi | Fibonacci Numbers |
-|           |                 |                   |
+|           |                 |                   |      |
+| --------- | --------------- | ----------------- | ---- |
+| Factorial | Towers of Hanoi | Fibonacci Numbers |      |
+|           |                 |                   |      |
 
 #### 2. Sorting and Searching
 |                                                              |                                                              |                                                              |                                                              |
@@ -23,8 +23,11 @@
 
 #### 4. Linear Data Stractures
 
-|                                                              |                                                              |                                                              |                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
-| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) | Ordered Linked List |
-| Unordered Linked List                                        |                                                              |                                                              |                     |
+|                                                              |                                                              |                                                              |      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) |      |
+| Array Sequence                                               | Dynamic Array Sequence                                       | Sorted Array                                                 |      |
+|                                                              |                                                              |                                                              |      |
+| Ordered Linked List                                          | Unordered Linked List                                        | Merge Two Linked Lists                                       |      |
+| Hash Table                                                   |                                                              |                                                              |      |
 
