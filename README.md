@@ -14,10 +14,10 @@
 | Newton's method | Square Roots | Integer arithmetic | Karatsuba multiplication |
 |                 |              |                    |                          |
 
-#### 3. Linear Data Stracture
+#### 3. Linear Data Stractures
 
-|                       |       |       |                     |
-| --------------------- | ----- | ----- | ------------------- |
-| Stack                 | Queue | Deque | Ordered Linked List |
-| Unordered Linked List |       |       |                     |
+|                                                              |       |       |                     |
+| ------------------------------------------------------------ | ----- | ----- | ------------------- |
+| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | Queue | Deque | Ordered Linked List |
+| Unordered Linked List                                        |       |       |                     |
 
