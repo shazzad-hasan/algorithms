@@ -16,8 +16,8 @@
 
 #### 3. Linear Data Stractures
 
-|                                                              |                                                              |       |                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | ------------------- |
-| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | Deque | Ordered Linked List |
-| Unordered Linked List                                        |                                                              |       |                     |
+|                                                              |                                                              |                                                              |                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
+| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) | Ordered Linked List |
+| Unordered Linked List                                        |                                                              |                                                              |                     |
 
