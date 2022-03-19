@@ -13,7 +13,7 @@
 | [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py) | [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Binary_Search.py) | [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py) | [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py) |
 | Insertion Sort                                               | Shell Sort                                                   | [Merge Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Merge_Sort.py) | Quick Sort                                                   |
 | Direct Access  Array Sort                                    | Counting Sort                                                | Radix Sort                                                   |                                                              |
-| [Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) |                                                              |                                                              |                                                              |
+| [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) | 2D Peak Finding                                              |                                                              |                                                              |
 
 #### 3. Numerics
 
