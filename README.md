@@ -12,6 +12,7 @@
 | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py) | [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Binary_Search.py) | [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py) | [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py) |
 | Insertion Sort                                               | Shell Sort                                                   | [Merge Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Merge_Sort.py) | Quick Sort                                                   |
+| Direct Access  Array Sort                                    | Counting Sort                                                | Radix Sort                                                   |                                                              |
 | [Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) |                                                              |                                                              |                                                              |
 
 #### 3. Numerics
@@ -23,11 +24,10 @@
 
 #### 4. Linear Data Stractures
 
-|                                                              |                                                              |                                                              |      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) |      |
-| Array Sequence                                               | Dynamic Array Sequence                                       | Sorted Array                                                 |      |
-|                                                              |                                                              |                                                              |      |
-| Ordered Linked List                                          | Unordered Linked List                                        | Merge Two Linked Lists                                       |      |
-| Hash Table                                                   |                                                              |                                                              |      |
+|                                                              |                                                              |                                                              |                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
+| [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) |                     |
+| Array Sequence                                               | Dynamic Array Sequence                                       | Sorted Array                                                 | Direct Access Array |
+| Ordered Linked List                                          | Unordered Linked List                                        | Merge Two Linked Lists                                       |                     |
+| Hash Table                                                   |                                                              |                                                              |                     |
 
