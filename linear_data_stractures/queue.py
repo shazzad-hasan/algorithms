@@ -1,9 +1,8 @@
 class Queue:
-    
     def __init__(self):
         self.items = []
         
-    def isEmpty(self): # tests to see whether the queue is empty
+    def is_empty(self): # tests to see whether the queue is empty
         return self.items == []
     
     def size(self): # returns the number of items
@@ -16,19 +15,19 @@ class Queue:
         return self.items.pop()
     
 q = Queue()
-print(q.isEmpty())
+print(q.is_empty())
 print(q.size())
 
 L = ['x', 'y', 'z', 'xyz', 1, 2]
 for l in L:
     q.enqueue(l)
 
-print(q.isEmpty())
+print(q.is_empty())
 print(q.size())
 print(q.dequeue())
 print(q.size())
 
-while not q.isEmpty():
+while not q.is_empty():
     q.dequeue()
 print(q.size())
     
