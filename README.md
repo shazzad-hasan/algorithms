@@ -35,17 +35,17 @@
 
 #### 5. Graph
 
-|                            |                          |                     |                      |
-| -------------------------- | ------------------------ | ------------------- | -------------------- |
-| Breadth-first search (BFS) | Depth-first search (DFS) | Topological sorting | Dijkstra’s Algorithm |
-| Bellman–Ford algorithm     |                          |                     |                      |
-|                            |                          |                     |                      |
+|                            |                          |                     |                        |
+| -------------------------- | ------------------------ | ------------------- | ---------------------- |
+| Breadth-first search (BFS) | Depth-first search (DFS) | Topological sorting | Bellman–Ford algorithm |
+| Dijkstra’s Algorithm       | Johnson's Algorithm      |                     |                        |
+|                            |                          |                     |                        |
 
 #### 6. Dynamic Programming
 
-|      |      |      |      |
-| ---- | ---- | ---- | ---- |
-|      |      |      |      |
-|      |      |      |      |
-|      |      |      |      |
+|                            |                             |                            |                          |
+| -------------------------- | --------------------------- | -------------------------- | ------------------------ |
+| Fibonacci sequence         | 0-1 Knapsack                | Longest Common Subsequence | Edit Distance            |
+| Optimal Binary Search Tree | Matrix Chain Multiplication | All-Pairs Minimum Distance | Floyd Warshall Algorithm |
+|                            |                             |                            |                          |
 
