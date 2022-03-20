@@ -1,33 +1,51 @@
 # Algorithms
 
-#### 1. Recursion
+#### 1. Sorting and Searching
+| Search                                                       | Sort                                                         |                                                              |                |
+| :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
+| [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py) | [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py) | [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py) | Insertion Sort |
+| [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Binary_Search.py) | Shell Sort                                                   | [Merge Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Merge_Sort.py) | Quick Sort     |
+| [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) | Counting Sort                                                | Radix Sort                                                   |                |
+| 2D Peak Finding                                              |                                                              |                                                              |                |
 
-|           |                 |                   |      |
-| --------- | --------------- | ----------------- | ---- |
-| Factorial | Towers of Hanoi | Fibonacci Numbers |      |
-|           |                 |                   |      |
-
-#### 2. Sorting and Searching
-|                                                              |                                                              |                                                              |                                                              |
-| :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py) | [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Binary_Search.py) | [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py) | [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py) |
-| Insertion Sort                                               | Shell Sort                                                   | [Merge Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Merge_Sort.py) | Quick Sort                                                   |
-| Direct Access  Array Sort                                    | Counting Sort                                                | Radix Sort                                                   |                                                              |
-| [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) | 2D Peak Finding                                              |                                                              |                                                              |
-
-#### 3. Numerics
-
-|                 |              |                    |                          |
-| --------------- | ------------ | ------------------ | ------------------------ |
-| Newton's method | Square Roots | Integer arithmetic | Karatsuba multiplication |
-|                 |              |                    |                          |
-
-#### 4. Linear Data Stractures
+#### 2. Linear Data Stractures
 
 |                                                              |                                                              |                                                              |                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
 | [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) |                     |
-| Array Sequence                                               | Dynamic Array Sequence                                       | Sorted Array                                                 | Direct Access Array |
 | Ordered Linked List                                          | Unordered Linked List                                        | Merge Two Linked Lists                                       |                     |
+| Static Array                                                 | Dynamic Array                                                | Sorted Array                                                 | Direct Access Array |
 | Hash Table                                                   |                                                              |                                                              |                     |
+|                                                              |                                                              |                                                              |                     |
+
+#### 3. Numerics
+
+|                          |              |                 |      |
+| ------------------------ | ------------ | --------------- | ---- |
+| Karatsuba multiplication | Square Roots | Newton's method |      |
+|                          |              |                 |      |
+
+#### 4. Tree
+
+|                    |          |          |      |
+| ------------------ | -------- | -------- | ---- |
+| Binary Search Tree | AVL Tree | AVL Sort |      |
+|                    |          |          |      |
+|                    |          |          |      |
+
+#### 5. Graph
+
+|                            |                          |                     |                      |
+| -------------------------- | ------------------------ | ------------------- | -------------------- |
+| Breadth-first search (BFS) | Depth-first search (DFS) | Topological sorting | Dijkstra’s Algorithm |
+| Bellman–Ford algorithm     |                          |                     |                      |
+|                            |                          |                     |                      |
+
+#### 6. Dynamic Programming
+
+|      |      |      |      |
+| ---- | ---- | ---- | ---- |
+|      |      |      |      |
+|      |      |      |      |
+|      |      |      |      |
 
