@@ -2,12 +2,12 @@ class StaticArray:
     def __init__(self, n):
         self.data = [None] * n
         
-    def get_at(self, i):
+    def get_at(self, i):                           # O(1)
         if (i < 0 or i > len(self.data)):
             raise IndexError
         return self.data[i]
     
-    def set_at(self, i, x):
+    def set_at(self, i, x):                        # O(1)
         if (i < 0 or i > len(self.data)):
             raise IndexError
         self.data[i] = x
@@ -35,3 +35,5 @@ def birthdayMatch(people):
                 return (name1, name2)               # O(1)
         record.set_at(k, (name1, birthday1))        # O(1)
     return None 
+
+
