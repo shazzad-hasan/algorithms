@@ -14,7 +14,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
 | [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) |              |
 | Ordered List                                                 | Unordered List                                               | Merge Two Linked Lists                                       |              |
-| Static Array (birthday match)                                | Array                                                        | Dynamic Array                                                | Sorted Array |
+| [Static Array (birthday match)](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/birthday_match.py) | Array                                                        | Dynamic Array                                                | Sorted Array |
 | Direct Access Array                                          |                                                              |                                                              |              |
 | Hash Table                                                   | Table doubling                                               | Karp-Rabin                                                   |              |
 
