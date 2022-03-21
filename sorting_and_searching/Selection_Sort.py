@@ -1,4 +1,10 @@
 def selection_sort(L):
+    """
+    Selection sort implementation
+    
+    Complexity: O(n^2), where n in len(L)
+
+    """
     suffixSt = 0
     while suffixSt != len(L):
         for i in range(suffixSt, len(L)):
