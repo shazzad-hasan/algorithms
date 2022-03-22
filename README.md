@@ -1,6 +1,16 @@
 # Algorithms
 
-#### 1. Sorting and Searching
+#### 1. Complexity Classes
+
+|             |        |            |            |
+| ----------- | ------ | ---------- | ---------- |
+| Logarithmic | Linear | Log-linear | Polynomial |
+| Exponential |        |            |            |
+
+
+
+#### 2. Sorting and Searching
+
 | Search                                                       | Sort                                                         |                                                              |                |
 | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
 | [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py) | [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py) | [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py) | Insertion Sort |
@@ -8,7 +18,7 @@
 | [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) | Counting Sort                                                | Radix Sort                                                   |                |
 | 2D Peak Finding                                              |                                                              |                                                              |                |
 
-#### 2. Linear Data Stractures
+#### 3. Linear Data Stractures
 
 |                                                              |                                                              |                                                              |              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
@@ -18,14 +28,14 @@
 | Direct Access Array                                          |                                                              |                                                              |              |
 | Hash Table                                                   | Table doubling                                               | Karp-Rabin                                                   |              |
 
-#### 3. Numerics
+#### 4. Numerics
 
 |                          |              |                 |      |
 | ------------------------ | ------------ | --------------- | ---- |
 | Karatsuba multiplication | Square Roots | Newton's method |      |
 |                          |              |                 |      |
 
-#### 4. Tree
+#### 5. Tree
 
 |                    |          |          |      |
 | ------------------ | -------- | -------- | ---- |
@@ -33,7 +43,7 @@
 |                    |          |          |      |
 |                    |          |          |      |
 
-#### 5. Graph
+#### 6. Graph
 
 |                            |                          |                     |                        |
 | -------------------------- | ------------------------ | ------------------- | ---------------------- |
@@ -41,7 +51,7 @@
 | Dijkstra’s Algorithm       | Johnson's Algorithm      |                     |                        |
 |                            |                          |                     |                        |
 
-#### 6. Dynamic Programming
+#### 7. Dynamic Programming
 
 |                            |                             |                            |                          |
 | -------------------------- | --------------------------- | -------------------------- | ------------------------ |
