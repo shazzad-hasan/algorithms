@@ -2,10 +2,10 @@
 
 #### 1. Complexity Classes
 
-|             |        |            |            |
-| ----------- | ------ | ---------- | ---------- |
-| Logarithmic | Linear | Log-linear | Polynomial |
-| Exponential |        |            |            |
+|                                                              |        |            |            |
+| ------------------------------------------------------------ | ------ | ---------- | ---------- |
+| [Logarithmic](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py) | Linear | Log-linear | Polynomial |
+| Exponential                                                  |        |            |            |
 
 
 
