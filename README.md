@@ -1,11 +1,11 @@
 # Algorithms
 
-#### 1. Complexity Classes
+#### 1. Complexity Classes Examples
 
-|                                                              |                                                              |            |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-| [Logarithmic](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py) | [Linear](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/linear.py) | Log-linear | [Polynomial](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/quadratic.py) |
-| [Exponential](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/exponential.py) |                                                              |            |                                                              |
+|                                                              |                                                              |                                                              |            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| Constant                                                     | [Logarithmic](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py) | [Linear](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/linear.py) | Log-linear |
+| [Polynomial](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/quadratic.py) | [Exponential](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/exponential.py) |                                                              |            |
 
 
 
