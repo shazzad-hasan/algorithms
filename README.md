@@ -4,7 +4,7 @@
 
 |                                                              |                                                              |                                                              |            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| Constant                                                     | [Logarithmic](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py) | [Linear](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/linear.py) | Log-linear |
+| [Constant](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/constant.py) | [Logarithmic](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py) | [Linear](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/linear.py) | Log-linear |
 | [Polynomial](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/quadratic.py) | [Exponential](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/exponential.py) |                                                              |            |
 
 
