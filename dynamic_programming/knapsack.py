@@ -2,7 +2,13 @@
 Suppose you are about to sit to a meal. You know how much you value
 different foods e.g., you like pizza more than burger, but you have
 a calorie budget. In this case, choosing what to eat is a 
-knapsack problem.
+knapsack problem. 
+
+In the follwoing, we use a greedy approach to decide what to order subject
+to the constraint that we don't want to consume more than a specific 
+amout of calories.
+
+Complexity: n log n
 """ 
 class Food(object):
     def __init__(self, n, v, w):
@@ -16,19 +22,17 @@ class Food(object):
     def density(self):
         return self.getValue()/self.getCost()
     def __str__(self):
-        return self.name + ': <' + str(self.value)\
-                 + ', ' + str(self.calories) + '>'
+        return self.name + ': <' + str(self.value) + ', ' + str(self.calories) + '>'
 
 def buildMenu(names, values, calories):
     menu = [Food(names[i], values[i], calories[i]) for i in range(len(values))]
     return menu
 
 def greedy(items, maxCost, keyFunction):
-    itemsCopy = sorted(items, key = keyFunction,
-                       reverse = True)
+    itemsCopy = sorted(items, key = keyFunction, reverse = True)   # O(nlogn)
     result = []
     totalValue, totalCost = 0.0, 0.0
-    for i in range(len(itemsCopy)):
+    for i in range(len(itemsCopy)):                                # O(n)
         if (totalCost+itemsCopy[i].getCost()) <= maxCost:
             result.append(itemsCopy[i])
             totalCost += itemsCopy[i].getCost()
