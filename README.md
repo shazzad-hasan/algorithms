@@ -1,4 +1,4 @@
-# Algorithms
+# Data Stractures and Algorithms
 
 #### 1. Complexity Classes Examples
 
