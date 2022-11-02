@@ -1,6 +1,6 @@
 # Data Stractures and Algorithms
 
-#### 1. Complexity Classes Examples
+#### Complexity Classes Examples
 
 |                                                              |                                                              |                                                              |            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
@@ -9,7 +9,7 @@
 
 
 
-#### 2. Sorting and Searching
+#### Sorting and Searching
 
 | Search                                                       | Sort                                                         |                                                              |                |
 | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
@@ -18,7 +18,7 @@
 | [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py) | Counting Sort                                                | Radix Sort                                                   |                |
 | 2D Peak Finding                                              |                                                              |                                                              |                |
 
-#### 3. Linear Data Stractures
+#### Linear Data Stractures
 
 |                                                              |                                                              |                                                              |              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
@@ -28,22 +28,22 @@
 | Direct Access Array                                          |                                                              |                                                              |              |
 | Hash Table                                                   | Table doubling                                               | Karp-Rabin                                                   |              |
 
-#### 4. Numerics
+#### Numerics
 
 |                          |              |                 |      |
 | ------------------------ | ------------ | --------------- | ---- |
 | Karatsuba multiplication | Square Roots | Newton's method |      |
 |                          |              |                 |      |
 
-#### 5. Tree
+#### Tree
 
-|                    |          |          |      |
-| ------------------ | -------- | -------- | ---- |
-| Binary Search Tree | AVL Tree | AVL Sort |      |
-|                    |          |          |      |
-|                    |          |          |      |
+|                                                              |          |          |      |
+| ------------------------------------------------------------ | -------- | -------- | ---- |
+| [Binary Search Tree](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/binary_search_tree.py) | AVL Tree | AVL Sort |      |
+|                                                              |          |          |      |
+|                                                              |          |          |      |
 
-#### 6. Graph
+#### Graph
 
 |                            |                          |                     |                        |
 | -------------------------- | ------------------------ | ------------------- | ---------------------- |
@@ -51,7 +51,7 @@
 | Dijkstra’s Algorithm       | Johnson's Algorithm      |                     |                        |
 |                            |                          |                     |                        |
 
-#### 7. Dynamic Programming
+#### Dynamic Programming
 
 |                            |                                                              |                            |                          |
 | -------------------------- | ------------------------------------------------------------ | -------------------------- | ------------------------ |
