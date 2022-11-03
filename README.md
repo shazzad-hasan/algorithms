@@ -53,9 +53,9 @@
 
 #### Dynamic Programming
 
-|                            |                                                              |                            |                          |
-| -------------------------- | ------------------------------------------------------------ | -------------------------- | ------------------------ |
-| Fibonacci sequence         | [0-1 Knapsack](https://github.com/shazzad-hasan/Algorithms/blob/main/dynamic_programming/knapsack.py) | Longest Common Subsequence | Edit Distance            |
-| Optimal Binary Search Tree | Matrix Chain Multiplication                                  | All-Pairs Minimum Distance | Floyd Warshall Algorithm |
-|                            |                                                              |                            |                          |
+|                                                              |                                                              |                            |                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- | ------------------------ |
+| [Fibonacci sequence](https://github.com/shazzad-hasan/Algorithms/blob/main/dynamic_programming/fibonacci.py) | [0-1 Knapsack](https://github.com/shazzad-hasan/Algorithms/blob/main/dynamic_programming/knapsack.py) | Longest Common Subsequence | Edit Distance            |
+| Optimal Binary Search Tree                                   | Matrix Chain Multiplication                                  | All-Pairs Minimum Distance | Floyd Warshall Algorithm |
+|                                                              |                                                              |                            |                          |
 
