@@ -30,10 +30,10 @@
 
 #### Numerics
 
-|                          |                                                              |                 |      |
-| ------------------------ | ------------------------------------------------------------ | --------------- | ---- |
-| Karatsuba multiplication | [Bisection Method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/bisection.py) | Newton's method |      |
-|                          |                                                              |                 |      |
+|                          |                                                              |                                                              |      |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| Karatsuba multiplication | [Bisection Method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/bisection.py) | [Newton's method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/newton.py) |      |
+|                          |                                                              |                                                              |      |
 
 #### Tree
 
