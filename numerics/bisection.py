@@ -25,15 +25,17 @@ def bisect(f, a, b, tol):
                 fa = fc 
         return (a+b)/2
 
-from math import cos 
-def f(x):
-    return cos(x) - x 
-tol = 1.0e-3
-print(bisect(f, 0, 1, tol))
+# # ---- test 1 ----
+# from math import cos 
+# def f(x):
+#     return cos(x) - x 
+# tol = 1.0e-3
+# print(bisect(f, 0, 1, tol))
 
-tol = 1.0e-5
-def g(x):
-    return x**3+x-1
-print(bisect(g, 1, 2, tol))
-print(bisect(g, 0, 1, tol))
+# # ---- test 2 ---- 
+# def g(x):
+#     return x**3+x-1
+# tol = 1.0e-5
+# print(bisect(g, 1, 2, tol))
+# print(bisect(g, 0, 1, tol))
 
