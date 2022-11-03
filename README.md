@@ -30,10 +30,10 @@
 
 #### Numerics
 
-|                          |              |                 |      |
-| ------------------------ | ------------ | --------------- | ---- |
-| Karatsuba multiplication | Square Roots | Newton's method |      |
-|                          |              |                 |      |
+|                          |                                                              |                 |      |
+| ------------------------ | ------------------------------------------------------------ | --------------- | ---- |
+| Karatsuba multiplication | [Bisection Method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/bisection.py) | Newton's method |      |
+|                          |                                                              |                 |      |
 
 #### Tree
 
