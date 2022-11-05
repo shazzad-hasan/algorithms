@@ -1,4 +1,4 @@
-class Array:
+class Array_Seq:
     def __init__(self): # O(1)            
         self.A = []
         self.size = 0
@@ -57,7 +57,7 @@ class Array:
         return self.delete_at(len(self)-1)
         
         
-my_array = Array()
+my_array = Array_Seq()
 
 L = [31, 77, "hello", 54, "world"]
 my_array.build(L)
