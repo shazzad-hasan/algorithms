@@ -24,7 +24,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
 | [Stack](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py) | [Queue](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py) | [Deque](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/deque.py) |              |
 | Singly Linked List                                           | Merge Two Linked Lists                                       | Doubly Linked List                                           |              |
-| [Static Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/static_array.py) | [Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/array_seq.py) | Dynamic Array                                                | Sorted Array |
+| [Static Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/static_array.py) | [Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/array.py) | Dynamic Array                                                | Sorted Array |
 | Direct Access Array                                          |                                                              |                                                              |              |
 | Hash Table                                                   | Table doubling                                               | Karp-Rabin                                                   |              |
 
