@@ -96,9 +96,3 @@ L.insert_last(15)
 print(L.get_at(len(L)-1))
 print(L.remove_last())
 print(L.get_at(len(L)-1))
-
-
-    
-
-
-    
