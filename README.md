@@ -37,10 +37,8 @@
 - [Static Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/static_array.py)
 - [Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/array.py)
 - [Dynamic Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/dynamic_array.py)
-- Sorted Array
-- Direct Access Array
 - Hash Table
-- Table doubling
+- Double Hashing
 - Karp-Rabin
 
 #### Numerics
@@ -70,7 +68,5 @@
 - [0-1 Knapsack](https://github.com/shazzad-hasan/Algorithms/blob/main/dynamic_programming/knapsack.py)
 - Longest Common Subsequence
 - Edit Distance
-- Optimal Binary Search Tree
 - Matrix Chain Multiplication
-- All-Pairs Minimum Distance
 - Floyd Warshall Algorithm
