@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-#### Complexity Classes Examples
+#### Complexity Classes
 
 - [Constant](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/constant.py)
 - [Logarithmic](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py)
@@ -9,14 +9,14 @@
 - [Polynomial](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/quadratic.py)
 - [Exponential](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/exponential.py)
 
-#### Search
+#### Search Algorithms
 
 - [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py)
 - [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Binary_Search.py)
 - [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py)
 - 2D Peak Finding
 
-#### Sorting
+#### Sorting Algorithms
 
 - [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py)
 - [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py)
@@ -41,19 +41,19 @@
 - Double Hashing
 - Karp-Rabin
 
-#### Numerics
+#### Numerical Analysis
 
 - Karatsuba multiplication  
 - [Bisection Method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/bisection.py)
 - [Newton's method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/newton.py)
 
-#### Tree
+#### Trees
 
 - [Binary Search Tree](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/binary_search_tree.py)
 - AVL Tree
 - AVL Sort
 
-#### Graph
+#### Graphs
 
 - [Breadth-first search (BFS)](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/breadth_first_search.py)
 - Depth-first search (DFS)
