@@ -11,18 +11,18 @@
 
 #### Search Algorithms
 
-- [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Linear_Search.py)
-- [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Binary_Search.py)
-- [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Peak_Element.py)
+- [Linear Search](https://github.com/shazzad-hasan/Algorithms/blob/main/search/Linear_Search.py)
+- [Binary Search](https://github.com/shazzad-hasan/Algorithms/blob/main/search/Binary_Search.py)
+- [1D Peak Finding](https://github.com/shazzad-hasan/Algorithms/blob/main/search/Peak_Element.py)
 - 2D Peak Finding
 
 #### Sorting Algorithms
 
-- [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Bubble_Sort.py)
-- [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Selection_Sort.py)
+- [Bubble Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Bubble_Sort.py)
+- [Selection Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Selection_Sort.py)
 - Insertion Sort
 - Shell Sort
-- [Merge Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting_and_searching/Merge_Sort.py)
+- [Merge Sort](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Merge_Sort.py)
 - Quick Sort
 - Counting Sort
 - Radix Sort
