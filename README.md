@@ -56,7 +56,7 @@
 #### Graphs
 
 - [Breadth-first search (BFS)](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/breadth_first_search.py)
-- Depth-first search (DFS)
+- [Depth-first search (DFS)](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/depth_first_search.py)
 - Topological sorting
 - Bellman–Ford algorithm
 - Dijkstra’s Algorithm
