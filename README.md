@@ -37,7 +37,7 @@
 - [Static Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/static_array.py)
 - [Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/array.py)
 - [Dynamic Array](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/dynamic_array.py)
-- Hash Table
+- [Hash Table](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/hash_table.py)
 - Double Hashing
 - Karp-Rabin
 
