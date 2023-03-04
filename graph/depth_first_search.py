@@ -1,63 +1,45 @@
-def dfs(graph, start):
-    
+def dfs_recursive(graph, node, visited=set(), traversal = []):
+    if node not in visited:
+        # print(node, end = " ")
+        visited.add(node)
+        traversal.append(node)
+        for neighbour in graph[node]:
+            dfs_recursive(graph, neighbour, visited, traversal)
+    return traversal
+
+
+def dfs_stack(graph, start):
     visited = []
     stack = [start]
-
     while stack:
         vertix = stack.pop()
         if vertix not in visited:
             visited.append(vertix)
-            
+            # print(vertix, end = " ")
         if vertix not in graph:
             continue
-
         for v in reversed(graph[vertix]):
             if v not in visited:
                 stack.append(v)
-        
     return visited 
 
-g1 = {
-    "A": ["B", "C", "D"],
-    "B": ["A", "D", "E"],
-    "C": ["A", "F"],
-    "D": ["B", "D"],
-    "E": ["B", "F"],
-    "F": ["C", "E", "G"],
-    "G": ["F"],
-}
 
-print(dfs(g1, "A"))
+def main():
+    g1 = {
+        "A": ["B", "C", "D"],
+        "B": ["A", "D", "E"],
+        "C": ["A", "F"],
+        "D": ["B", "D"],
+        "E": ["B", "F"],
+        "F": ["C", "E", "G"],
+        "G": ["F"],
+    }
+    print("\nRecursive DFS:")
+    print(dfs_recursive(g1, "A"))
 
-g2 = {
-    'A' : ['B','C'],
-    'B' : ['D', 'E'],
-    'C' : ['F'],
-    'D' : [],
-    'E' : ['F'],
-    'F' : []
-}
-print(dfs(g2, "A"))
+    print("\nStack-based DFS:")
+    print(dfs_stack(g1, "A"))
+    print()
 
-g3 = {
-    "A":["B", "C", "D"],
-    "B":["E"],
-    "C":["F", "G"],
-    "D":["H"],
-    "E":["I"],
-    "F":["J"]
-}
-print(dfs(g3, "A"))
-
-g4 = {
-    'A' : ['B','S'],
-    'B' : ['A'],
-    'C' : ['D','E','F','S'],
-    'D' : ['C'],
-    'E' : ['C','H'],
-    'F' : ['C','G'],
-    'G' : ['F','S'],
-    'H' : ['E','G'],
-    'S' : ['A','C','G']
-}
-print(dfs(g4, "A"))
+if __name__ == "__main__":
+    main()
