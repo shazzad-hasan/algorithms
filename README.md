@@ -42,21 +42,23 @@
 
 #### Numerical Analysis
 
-- Karatsuba multiplication  
+- Karatsuba Multiplication  
 - [Bisection Method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/bisection.py)
 - [Newton's method](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/newton.py)
 
 #### Trees
 
 - [Binary Search Tree](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/binary_search_tree.py)
-- [Breadth-first search (BFS)](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/breadth_first_search.py)
-- [Depth-first search (DFS)](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/depth_first_search.py)
+- [Breadth-first Search](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/breadth_first_search.py)
+- [Depth-first Search](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/depth_first_search.py)
 - AVL Tree
 - AVL Sort
 
 #### Graphs
 
-- Topological sorting
+- Breadth-first Search 
+- Depth-first Search
+- Topological Sorting
 - Bellman–Ford algorithm
 - Dijkstra’s Algorithm
 - Johnson's Algorithm
