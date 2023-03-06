@@ -1,14 +1,14 @@
-def dfs_recursive(graph, node, visited=set(), traversal = []):
+def dfs_traversal_recursive(graph, node, visited=set(), traversal = []):
     if node not in visited:
         # print(node, end = " ")
         visited.add(node)
         traversal.append(node)
         for neighbour in graph[node]:
-            dfs_recursive(graph, neighbour, visited, traversal)
+            dfs_traversal_recursive(graph, neighbour, visited, traversal)
     return traversal
 
 
-def dfs_stack(graph, start):
+def dfs_traversal_stack(graph, start):
     visited = []
     stack = [start]
     while stack:
@@ -34,11 +34,11 @@ def main():
         "F": ["C", "E", "G"],
         "G": ["F"],
     }
-    print("\nRecursive DFS:")
-    print(dfs_recursive(g1, "A"))
+    print("\nRecursive DFS traversal:")
+    print(dfs_traversal_recursive(g1, "A"))
 
-    print("\nStack-based DFS:")
-    print(dfs_stack(g1, "A"))
+    print("\nStack-based DFS traversal:")
+    print(dfs_traversal_stack(g1, "A"))
     print()
 
 if __name__ == "__main__":
