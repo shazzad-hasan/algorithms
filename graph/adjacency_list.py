@@ -60,22 +60,41 @@ class Graph:
     
 
 def main():
-    g = Graph()
+    
+    g1 = Graph()
     for i in range(5):
-        g.addVertex(i)
-    g.addEdge(0, 1, 5) 
-    g.addEdge(0, 5, 2)
-    g.addEdge(1, 2, 4)
-    g.addEdge(2, 3, 9)
-    g.addEdge(3, 4, 7)
-    g.addEdge(3, 5, 3)
-    g.addEdge(4, 0, 1)
-    g.addEdge(5, 4, 8)
-    g.addEdge(5, 2, 1)
-
-    for v in g:
+        g1.addVertex(i)
+    g1.addEdge(0, 1, 5) 
+    g1.addEdge(0, 5, 2)
+    g1.addEdge(1, 2, 4)
+    g1.addEdge(2, 3, 9)
+    g1.addEdge(3, 4, 7)
+    g1.addEdge(3, 5, 3)
+    g1.addEdge(4, 0, 1)
+    g1.addEdge(5, 4, 8)
+    g1.addEdge(5, 2, 1)
+    for v in g1:
         for w in v.getConnections():
-            print("( %s, %s )" % (v.getId(), w.getId()))
+            print(v.getId(), "-->", w.getId())
+
+    print()
+
+    g2 = Graph()
+    g2.addVertex('a')
+    g2.addVertex('b')
+    
+    g2.addEdge('a', 'b', 1)
+    g2.addEdge('b', 'e', 3)
+    g2.addEdge('b', 'c', 2)
+    g2.addEdge('e', 'c', 2)
+    g2.addEdge('c', 'd', 3)
+    
+
+    for v in g2:
+        for w in v.getConnections():
+            print(v.getId(), "-->", w.getId())
+
+
 
 if __name__ == "__main__":
     main()
