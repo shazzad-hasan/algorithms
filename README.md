@@ -57,10 +57,9 @@
 #### Graphs
 
 - Graph Representation in Code
-  - Adjacency Matrices
-  - [Adjacency Lists](https://github.com/shazzad-hasan/Algorithms/tree/main/graph)
-  - Adjacency Sets
-
+  	- Adjacency Matrices
+  	- [Adjacency Lists](https://github.com/shazzad-hasan/Algorithms/tree/main/graph)
+  	- Adjacency Sets
 - Breadth-first Search on Graphs
 - Depth-first Search on Graphs
 - Topological Sorting
