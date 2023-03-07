@@ -58,7 +58,7 @@
 
 - Graph Representation in Code
   	- Adjacency Matrices
-  	- [Adjacency Lists](https://github.com/shazzad-hasan/Algorithms/tree/main/graph)
+  	- [Adjacency Lists](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/adjacency_list.py)
   	- Adjacency Sets
 - Breadth-first Search on Graphs
 - Depth-first Search on Graphs
