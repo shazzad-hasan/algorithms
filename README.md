@@ -58,7 +58,7 @@
   	- Adjacency Matrices
   	- [Adjacency Lists](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/adjacency_list.py)
   	- Adjacency Sets
-- Breadth-first Search
+- [Breadth-first Search](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/breadth_first_search.py)
 - Depth-first Search
 - Topological Sorting
 - Bellman–Ford algorithm
