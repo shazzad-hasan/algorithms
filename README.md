@@ -49,8 +49,6 @@
 #### Trees
 
 - [Binary Search Tree](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/binary_search_tree.py)
-- [Breadth-first Search on Trees](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/breadth_first_search.py) 
-- [Depth-first Search on Trees](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/depth_first_search.py)
 - AVL Tree
 - AVL Sort
 
@@ -60,8 +58,8 @@
   	- Adjacency Matrices
   	- [Adjacency Lists](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/adjacency_list.py)
   	- Adjacency Sets
-- Breadth-first Search on Graphs
-- Depth-first Search on Graphs
+- Breadth-first Search
+- Depth-first Search
 - Topological Sorting
 - Bellman–Ford algorithm
 - Dijkstra’s Algorithm
