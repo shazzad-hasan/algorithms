@@ -60,7 +60,7 @@
   	- Adjacency Sets
 - [Breadth-first Search](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/breadth_first_search.py)
 - [Depth-first Search](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/depth_first_search.py)
-- Topological Sorting
+- [Topological Sorting](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/topological_sort.py)
 - Bellman–Ford algorithm
 - Dijkstra’s Algorithm
 - Johnson's Algorithm
