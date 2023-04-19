@@ -2,53 +2,53 @@
 
 #### Complexity Classes
 
-- Constant  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/constant.py)]
-- Logarithmic  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/logarithmic.py)]
-- Linear  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/linear.py)]
-- Log-linear  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Merge_Sort.py)]
-- Polynomial  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/quadratic.py)]
-- Exponential  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/complexity_classes/exponential.py)]
+- Constant  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/constant.py)]
+- Linear  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/linear.py)]
+- Quadratic [python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/quadratic.py)
+- Logarithmic  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/logarithmic.py)]
+- Log-linear  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Merge_Sort.py)]
+- Exponential  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/exponential.py)]
 
 #### Search Algorithms
 
-- Linear Search  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/search/Linear_Search.py)]
-- Binary Search  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/search/Binary_Search.py)]
-- 1D Peak Finding  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/search/Peak_Element.py)]
+- Linear Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Linear_Search.py)]
+- Binary Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Binary_Search.py)]
+- 1D Peak Finding  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Peak_Element.py)]
 - 2D Peak Finding
 
 #### Sorting Algorithms
 
-- Bubble Sort  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Bubble_Sort.py)]
-- Selection Sort  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Selection_Sort.py)]
+- Bubble Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Bubble_Sort.py)]
+- Selection Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Selection_Sort.py)]
 - Insertion Sort
 - Shell Sort
-- Merge Sort  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/sorting/Merge_Sort.py)]
+- Merge Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Merge_Sort.py)]
 - Quick Sort
 - Counting Sort
 - Radix Sort
 
 #### Linear Data Structures
 
-- Stack  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/stack.py)]
-- Queue  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/queue.py)]
-- Singly Linked List  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/singly_linked_list.py)]
+- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)]
+- Queue  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/queue.py)]
+- Singly Linked List  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/singly_linked_list.py)]
 - Merge Two Linked Lists
 - Doubly Linked List
-- Static Array  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/static_array.py)]
-- Array  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/array.py)]
-- Dynamic Array  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/dynamic_array.py)]
-- Hash Table  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/linear_data_stractures/hash_table.py)]
+- Static Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/static_array.py)]
+- Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/array.py)]
+- Dynamic Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/dynamic_array.py)]
+- Hash Table  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/hash_table.py)]
 - Double Hashing
 
 #### Numerical Analysis
 
 - Karatsuba Multiplication  
-- Bisection Method  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/bisection.py)]
-- Newton's method  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/numerics/newton.py)]
+- Bisection Method  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/bisection.py)]
+- Newton's method  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/newton.py)]
 
 #### Trees
 
-- Binary Search Tree  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/tree/binary_search_tree.py)]
+- Binary Search Tree  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
 - AVL Tree
 - AVL Sort
 
@@ -56,11 +56,11 @@
 
 - Graph Representation in Code
   	- Adjacency Matrices
-  	- Adjacency Lists  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/adjacency_list.py)]
+  	- Adjacency Lists  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)]
   	- Adjacency Sets
-- Breadth-first Search  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/breadth_first_search.py)]
-- Depth-first Search  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/depth_first_search.py)]
-- Topological Sort  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/graph/topological_sort.py)]
+- Breadth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/breadth_first_search.py)]
+- Depth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/depth_first_search.py)]
+- Topological Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/topological_sort.py)]
 - Dijkstra’s Algorithm
 - Bellman–Ford algorithm
 - Johnson's Algorithm
@@ -68,8 +68,8 @@
 
 #### Dynamic Programming
 
-- Fibonacci sequence  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/dynamic_programming/fibonacci.py)]
-- 0-1 Knapsack  [[python](https://github.com/shazzad-hasan/Algorithms/blob/main/dynamic_programming/knapsack.py)]
+- Fibonacci sequence  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/dynamic_programming/fibonacci.py)]
+- 0-1 Knapsack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/dynamic_programming/knapsack.py)]
 - Longest Common Subsequence
 - Edit Distance
 - Matrix Chain Multiplication
