@@ -46,6 +46,10 @@
 - Bisection Method  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/bisection.py)]
 - Newton's method  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/newton.py)]
 
+#### Linear Algebra
+
+- Matrix Operations [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/matrix_operations.py)]
+
 #### Trees
 
 - Binary Search Tree  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
