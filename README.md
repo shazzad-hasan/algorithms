@@ -48,7 +48,7 @@
 
 #### Linear Algebra
 
-- Matrix Operations [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/matrix_operations.py)]
+- Matrix Operations [[naive python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/matrix_operations.py)]
 
 #### Trees
 
