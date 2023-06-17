@@ -161,19 +161,19 @@ class SinglyLinkedList{
         len++;
         current = current->getNext();
       }
+      current = head;
+
       if (len < pos){
         cout<<"Index out of range"<<endl;
         return;
       }
-
-      current = head;
 
       if (pos == 0){
         head = head->getNext();
         return;
       }
 
-      while (pos-- > 0){
+      for (int i=0; i<pos-1; i++){
         previous = current;
         current = current->getNext();
       }
