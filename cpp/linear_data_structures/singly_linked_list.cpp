@@ -50,16 +50,6 @@ class SinglyLinkedList{
       return count;
     }
 
-    void display(){
-      cout<<"Current Linked List: ";
-      Node* current = head;
-      while (current != nullptr){
-        cout<<current->getValue()<<" ";
-        current = current->getNext();
-      }
-      cout<<endl;
-    }
-
     // insert a node at the start of the list
     void insert_first(int item){
       Node* temp = new Node(item);
@@ -146,6 +136,22 @@ class SinglyLinkedList{
       }
     }
 
+    // delete  the first node
+    void delete_first(){
+      head = head->getNext();
+    }
+
+    // delete the last node
+    void delete_last(){
+      Node* current = head;
+
+      while (current->getNext()->getNext() != nullptr){
+        current = current->getNext();
+      }
+      delete (current->getNext());
+      current->setNext(nullptr);
+    }
+
     // delete a node at a given position
     void delete_at(int pos){
       Node* current = head;
@@ -163,53 +169,70 @@ class SinglyLinkedList{
       }
       current = head;
 
-      if (len < pos){
-        cout<<"Index out of range"<<endl;
+      if (pos < 0 || pos > len-1){
+        cout<<"Invalid position"<<endl;
         return;
       }
 
       if (pos == 0){
-        head = head->getNext();
+        delete_first();
         return;
       }
 
-      for (int i=0; i<pos-1; i++){
+      for (int i=0; i<pos; i++){
         previous = current;
         current = current->getNext();
       }
       // change the next pointer of the previous node
       previous->setNext(current->getNext());
     }
+
+    // print the linked list
+    void display(){
+      cout<<"Current Linked List: ";
+      Node* current = head;
+      while (current != nullptr){
+        cout<<current->getValue()<<" ";
+        current = current->getNext();
+      }
+      cout<<endl;
+    }
 };
 
 int main(){
 
   SinglyLinkedList L;
+
+  cout<<"Does L is an empty linked list? "<<L.isEmpty()<<endl;
+
   L.insert_first(3);
   L.insert_first(7);
-  L.insert_first(17);
-  L.insert_first(43);
-  L.insert_first(26);
-  L.insert_first(54);
-  
+  L.display();
+  L.insert_last(43);
+  L.insert_last(26);
+  L.display();
+  L.insert_at(2, 17);
+  L.insert_at(4, 55);
   L.display();
 
+  cout<<"Does L is an empty linked list? "<<L.isEmpty()<<endl;
   cout<<"size: "<<L.size()<<endl;
+  
   cout<<"Is 17 in the list? "<<L.search(17)<<endl;
+
   L.delete_item(17);
   cout<<"Is 17 in the list? "<<L.search(17)<<endl;
-
   L.display();
 
-  L.insert_last(60);
-  L.insert_last(75);
-
+  L.delete_first();
+  L.delete_last();
   L.display();
 
-  L.delete_at(2);
+  L.delete_at(-1);
+  L.delete_at(100);
   L.display();
 
-  L.insert_at(3, 93);
+  L.delete_at(1);
   L.display();
 
   return 0;
