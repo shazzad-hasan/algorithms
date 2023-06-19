@@ -203,7 +203,7 @@ int main(){
 
   SinglyLinkedList L;
 
-  cout<<"Does L is an empty linked list? "<<L.isEmpty()<<endl;
+  cout<<"Is L an empty linked list? "<<L.isEmpty()<<endl;
 
   L.insert_first(3);
   L.insert_first(7);
