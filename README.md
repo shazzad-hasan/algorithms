@@ -29,7 +29,7 @@
 
 #### Linear Data Structures
 
-- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)]
+- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_array.cpp)]
 - Queue  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/queue.py)]
 - Singly Linked List  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/singly_linked_list.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/singly_linked_list.cpp)]
 - Merge Two Linked Lists
