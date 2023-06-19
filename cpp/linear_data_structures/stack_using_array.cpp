@@ -49,6 +49,10 @@ class Stack{
       return (top >= MAX_SIZE-1);
     }
 
+    int size(){
+      return top+1;
+    }
+
     void display(){
       if (top < 0){
         cout<<"Stack is empty"<<endl;
@@ -73,9 +77,11 @@ int main(){
   s.push(10);
 
   s.display();
+  cout<<"Number of elements in the stack: "<<s.size()<<endl;
 
   s.pop();
   s.display();
+  cout<<"Number of elements in the stack: "<<s.size()<<endl;
 
   s.peak();
   cout<<"Is the stack full? "<<s.isFull()<<endl;
