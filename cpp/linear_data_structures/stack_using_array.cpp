@@ -15,32 +15,6 @@ class Stack{
       top = -1;
     }
 
-    void push(int item){
-      if (top >= MAX_SIZE-1){
-        cout<<"Stack is full"<<endl;
-        return;
-      }
-      data[++top] = item;
-    }
-
-    void pop(){
-      if (top < 0){
-        cout<<"Stack is empty"<<endl;
-        return;
-      }
-      data[top--];
-    }
-
-    void peak(){
-      if (top < 0){
-        cout<<"Stack is empty"<<endl;
-        return;
-      }
-      else {
-        cout<<data[top]<<endl;
-      }
-    }
-
     bool isEmpty(){
       return (top < 0);
     }
@@ -53,8 +27,34 @@ class Stack{
       return top+1;
     }
 
+    void push(int item){
+      if (isFull()){
+        cout<<"Stack is full"<<endl;
+        return;
+      }
+      data[++top] = item;
+    }
+
+    void pop(){
+      if (isEmpty()){
+        cout<<"Stack is empty"<<endl;
+        return;
+      }
+      data[top--];
+    }
+
+    void peek(){
+      if (isEmpty()){
+        cout<<"Stack is empty"<<endl;
+        return;
+      }
+      else {
+        cout<<data[top]<<endl;
+      }
+    }
+
     void display(){
-      if (top < 0){
+      if (isEmpty()){
         cout<<"Stack is empty"<<endl;
         return;
       }
@@ -83,7 +83,7 @@ int main(){
   s.display();
   cout<<"Number of elements in the stack: "<<s.size()<<endl;
 
-  s.peak();
+  s.peek();
   cout<<"Is the stack full? "<<s.isFull()<<endl;
 
   return 0;
