@@ -29,14 +29,12 @@
 
 #### Linear Data Structures
 
-- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)] [[cpp1](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_array.cpp)] [[cpp2](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_STL.cpp)]
-- Queue  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/queue.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/queue_using_array.cpp)]
-- Singly Linked List  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/singly_linked_list.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/singly_linked_list.cpp)]
-- Merge Two Linked Lists
-- Doubly Linked List
-- Static Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/static_array.py)]
-- Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/array.py)]
+- Static Array  [[python1](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/static_array.py)] [[python2](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/array.py)]
 - Dynamic Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/dynamic_array.py)]
+- Singly Linked List  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/singly_linked_list.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/singly_linked_list.cpp)]
+- Doubly Linked List
+- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)] [[cpp1](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_array.cpp)] [[cpp2](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_STL.cpp)]
+- Queue  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/queue.py)] [[cpp1](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/queue_using_array.cpp)]
 - Hash Table  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/hash_table.py)]
 - Double Hashing
 
@@ -55,10 +53,7 @@
 
 #### Graphs
 
-- Graph Representation in Code
-  	- Adjacency Matrices
-  	- Adjacency Lists  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)]
-  	- Adjacency Sets
+- Graph [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)]
 - Breadth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/breadth_first_search.py)]
 - Depth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/depth_first_search.py)]
 - Topological Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/topological_sort.py)]
@@ -76,8 +71,7 @@
 - Matrix Chain Multiplication
 - Floyd Warshall Algorithm
 
-
-
 #### Problem Solving
 
 - [LeetCode](https://github.com/shazzad-hasan/LeetCode)
+- Project Euler

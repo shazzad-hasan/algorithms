@@ -1,3 +1,5 @@
+# python implementation of graph representation using adjacency list
+
 class Vertex:
     def __init__(self, key):
         self.id = key 
