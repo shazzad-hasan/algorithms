@@ -54,7 +54,7 @@
 
 #### Graphs
 
-- Graph [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)]
+- Graph [[python1](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)] [[python2](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_matrix.py)] [[python3](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_set.py)]
 - Breadth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/breadth_first_search.py)]
 - Depth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/depth_first_search.py)]
 - Topological Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/topological_sort.py)]
