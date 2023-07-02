@@ -4,7 +4,7 @@
 
 - Constant  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/constant.py)]
 - Linear  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/linear.py)]
-- Quadratic [python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/quadratic.py)
+- Quadratic [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/quadratic.py)]
 - Logarithmic  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/logarithmic.py)]
 - Log-linear  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Merge_Sort.py)]
 - Exponential  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/complexity_classes/exponential.py)]
@@ -29,7 +29,7 @@
 
 #### Linear Data Structures
 
-- Static Array  [[python1](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/static_array.py)] [[python2](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/array.py)]
+- Static Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/array.py)]
 - Dynamic Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/dynamic_array.py)]
 - Singly Linked List  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/singly_linked_list.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/singly_linked_list.cpp)]
 - Doubly Linked List
