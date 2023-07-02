@@ -75,7 +75,7 @@ class Matrix:
         return result
     
 
-if __name__== "__main__":
+if __name__=="__main__":
     
     A = Matrix([[1,2],[3,4]], 2, 2)
     B = Matrix([[5,6],[7,8]], 2, 2)
