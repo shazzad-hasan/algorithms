@@ -14,7 +14,8 @@ def bubble_sort(L):
     #         if L[i-1] > L[i]:
     #             L[i-1], L[i] = L[i], L[i-1]
     
+if __name__=="__main__":
 
-testlist = [75,16,83,17,17,77,31,0,44,55,20]
-bubble_sort(testlist)
-print(testlist)
+    testlist = [75,16,83,17,17,77,31,0,44,55,20]
+    bubble_sort(testlist)
+    print(testlist)

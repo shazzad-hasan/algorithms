@@ -25,6 +25,8 @@ def merge_sort(L):
         left = merge_sort(L[:mid])
         right = merge_sort(L[mid:])
         return merge(left, right) 
-    
-testlist = [75,16,83,17,17,77,31,0,44,55,20]
-print(merge_sort(testlist))
+
+if __name__=="__main__":
+   
+    testlist = [75,16,83,17,17,77,31,0,44,55,20]
+    print(merge_sort(testlist))

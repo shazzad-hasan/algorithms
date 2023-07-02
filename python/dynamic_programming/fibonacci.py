@@ -13,5 +13,9 @@ def fib(n, memo = {}):
         memo[n] = result 
         return result 
 
-for i in range(121):
-    print(f"fib({i}) = {fib(i)}")
+def main():
+    for i in range(121):
+        print(f"fib({i}) = {fib(i)}")
+
+if __name__=="__main__":
+    main()

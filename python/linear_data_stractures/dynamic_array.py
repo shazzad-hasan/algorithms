@@ -70,37 +70,37 @@ class Dynamic_Array:
     def delete_first(self):
         return self.delete_at(0)
 
-    
-# my_array = Dynamic_Array()
-# L = [31, 77, "hello", 54, "world"]
-# my_array.build(L)
+if __name__=="__main__":
+    my_array = Dynamic_Array()
+    L = [31, 77, "hello", 54, "world"]
+    my_array.build(L)
 
 
-# for e in my_array:
-#     print(e)
+    for e in my_array:
+        print(e)
 
-# my_array.set_at(2, 'cat')
-# print()
-# for e in my_array:
-#     print(e)
+    my_array.set_at(2, 'cat')
+    print()
+    for e in my_array:
+        print(e)
 
-# my_array.insert_at(3, 'Jon')
-# print()
-# for e in my_array:
-#     print(e)
+    my_array.insert_at(3, 'Jon')
+    print()
+    for e in my_array:
+        print(e)
 
-# my_array.delete_at(3)
-# print()
-# print(my_array.get_at(3))
+    my_array.delete_at(3)
+    print()
+    print(my_array.get_at(3))
 
-# my_array.insert_first(0)
-# my_array.insert_last('dog')
-# print()
-# for e in my_array:
-#     print(e)
-    
-# my_array.delete_first()
-# my_array.delete_last()
-# print()
-# for e in my_array:
-#     print(e)
+    my_array.insert_first(0)
+    my_array.insert_last('dog')
+    print()
+    for e in my_array:
+        print(e)
+        
+    my_array.delete_first()
+    my_array.delete_last()
+    print()
+    for e in my_array:
+        print(e)

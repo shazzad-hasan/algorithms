@@ -47,6 +47,9 @@ def ordered_linear_search(L, e):
                 ind += 1 
     return found
 
-testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42]
-print(ordered_linear_search(testlist, 17))
-print(ordered_linear_search(testlist, 20))
+if __name__=="__main__":
+
+    testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42]
+    
+    print(ordered_linear_search(testlist, 17))
+    print(ordered_linear_search(testlist, 20))

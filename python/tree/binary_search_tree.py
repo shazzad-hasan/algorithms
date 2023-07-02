@@ -198,58 +198,59 @@ class Binary_Tree:
         while node.left is not None:
             node = node.left
         return node.value 
+
+if __name__=="__main__":
             
-            
-# t = Binary_Tree()
+    t = Binary_Tree()
 
-# print(t.is_empty())
-# t.add(10)
-# t.add(5)
-# print(t.is_empty()) 
-# t.empty()
-# print(t.is_empty())
+    print(t.is_empty())
+    t.add(10)
+    t.add(5)
+    print(t.is_empty()) 
+    t.empty()
+    print(t.is_empty())
 
-# """
-#         8
-#        /  \
-#       3   10
-#      /  \    \
-#     1   6    14
-#        / \   /
-#       4   7 13
-#       \
-#         5
-# """
-# t = Binary_Tree()
-# t.add(8)
-# t.add(3)
-# t.add(6)
-# t.add(1)
-# t.add(10)
-# t.add(14)
-# t.add(13)
-# t.add(4)
-# t.add(7)
-# t.add(5) 
+    """
+            8
+        /  \
+        3   10
+        /  \    \
+        1   6    14
+        / \   /
+        4   7 13
+        \
+            5
+    """
+    t = Binary_Tree()
+    t.add(8)
+    t.add(3)
+    t.add(6)
+    t.add(1)
+    t.add(10)
+    t.add(14)
+    t.add(13)
+    t.add(4)
+    t.add(7)
+    t.add(5) 
 
-# print("inorder traversal")
-# t.inorder_traversal()
+    print("inorder traversal")
+    t.inorder_traversal()
 
-# print("preorder traversal")
-# t.preorder_traversal()
+    print("preorder traversal")
+    t.preorder_traversal()
 
-# print("postorder traversal")
-# t.postorder_traversal()
+    print("postorder traversal")
+    t.postorder_traversal()
 
-# t.search(6)
-# t.search(13)
-# t.search(100)
-# t.search(8)
+    t.search(6)
+    t.search(13)
+    t.search(100)
+    t.search(8)
 
-# print(t.get_max_value())
-# print(t.get_min_value())
+    print(t.get_max_value())
+    print(t.get_min_value())
 
-# t.remove(6)
+    t.remove(6)
 
-# print("inorder traversal")
-# t.inorder_traversal() 
+    print("inorder traversal")
+    t.inorder_traversal() 

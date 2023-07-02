@@ -19,17 +19,18 @@ class Deque:
     
     def remove_rear(self): # removes the rear item
         return self.items.pop(0)
-    
-d = Deque()
-print(d.is_empty())
-print(d.size())
 
-d.add_front('x')
-d.add_rear('y')
-print(d.is_empty())
-print(d.size())
+if __name__=="__main__":  
+    d = Deque()
+    print(d.is_empty())
+    print(d.size())
 
-d.remove_front()
-d.remove_rear()
-print(d.is_empty())
-print(d.size())
+    d.add_front('x')
+    d.add_rear('y')
+    print(d.is_empty())
+    print(d.size())
+
+    d.remove_front()
+    d.remove_rear()
+    print(d.is_empty())
+    print(d.size())

@@ -44,20 +44,24 @@ def testGreedy(items, constraint, keyFunction):
     print('Total value of items taken =', value)
     for item in taken:
         print('  ', item)
-        
-names = ['wine', 'beer', 'pizza', 'burger', 'fries',
-         'cola', 'apple', 'donut', 'cake']
-values = [89,90,95,100,90,79,50,10]
-calories = [123,154,258,354,365,150,95,195]
-foods = buildMenu(names, values, calories)
 
-constraint = 1000
-print("Greedy by value")
-testGreedy(foods, constraint, Food.getValue)
-print("Greedy by cost")
-testGreedy(foods, constraint, lambda x: 1/Food.getCost(x))
-print("Greedy by density")
-testGreedy(foods, constraint, Food.density)
+def main(): 
+    names = ['wine', 'beer', 'pizza', 'burger', 'fries',
+            'cola', 'apple', 'donut', 'cake']
+    values = [89,90,95,100,90,79,50,10]
+    calories = [123,154,258,354,365,150,95,195]
+    foods = buildMenu(names, values, calories)
+
+    constraint = 1000
+    print("Greedy by value")
+    testGreedy(foods, constraint, Food.getValue)
+    print("Greedy by cost")
+    testGreedy(foods, constraint, lambda x: 1/Food.getCost(x))
+    print("Greedy by density")
+    testGreedy(foods, constraint, Food.density)
+
+if __name__=="__main__":
+    main()
 
 
 

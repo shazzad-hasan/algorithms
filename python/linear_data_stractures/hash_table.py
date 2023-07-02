@@ -51,26 +51,27 @@ class HashTable:
     def __setitem__(self, key, data):
         self.put(key, data)
 
-h = HashTable()
-h[20] = "horse"
-h[26] = "cat"
-h[33] = "lion"
-h[8] = "tiger"
-h[0] = "bird"
-h[11] = "cow"
-h[44] = "bear"
-h[55] = "elephant"
-h[25] = "chicken"
+if __name__=="__main__":
+    h = HashTable()
+    h[20] = "horse"
+    h[26] = "cat"
+    h[33] = "lion"
+    h[8] = "tiger"
+    h[0] = "bird"
+    h[11] = "cow"
+    h[44] = "bear"
+    h[55] = "elephant"
+    h[25] = "chicken"
 
-for i in range(h.size):
-    print("{} -- > {}".format(h.slots[i], h.data[i])) 
+    for i in range(h.size):
+        print("{} -- > {}".format(h.slots[i], h.data[i])) 
 
-print(h.slots)
-print(h.data)
+    print(h.slots)
+    print(h.data)
 
-print(h[25])
-h[20] = "duck"
-print(h[20])
+    print(h[25])
+    h[20] = "duck"
+    print(h[20])
 
    
 

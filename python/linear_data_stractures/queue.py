@@ -14,20 +14,23 @@ class Queue:
     def dequeue(self): # O(n), removes the front item, queue gets modified.
         return self.items.pop()
     
-q = Queue()
-print(q.is_empty())
-print(q.size())
+if __name__=="__main__":
 
-L = ['x', 'y', 'z', 'xyz', 1, 2]
-for l in L:
-    q.enqueue(l)
+    q = Queue()
+    
+    print(q.is_empty())
+    print(q.size())
 
-print(q.is_empty())
-print(q.size())
-print(q.dequeue())
-print(q.size())
+    L = ['x', 'y', 'z', 'xyz', 1, 2]
+    for l in L:
+        q.enqueue(l)
 
-while not q.is_empty():
-    q.dequeue()
-print(q.size())
+    print(q.is_empty())
+    print(q.size())
+    print(q.dequeue())
+    print(q.size())
+
+    while not q.is_empty():
+        q.dequeue()
+    print(q.size())
     

@@ -23,8 +23,11 @@ def peak_element(L):
     #         return peak_element(L[mid+1:])
     #     else:
     #         return L[mid]
-        
-test1 = [1,2,1,3,5,6,4]
-print(peak_element(test1))  
-nums2 = [1,2,3,1]
-print(peak_element(nums2))
+
+if __name__=="__main__":
+   
+    test1 = [1,2,1,3,5,6,4]
+    print(peak_element(test1))  
+    
+    nums2 = [1,2,3,1]
+    print(peak_element(nums2))

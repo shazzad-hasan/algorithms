@@ -28,7 +28,8 @@ def binary_search(L, e):
             return binary_search(L[mid:], e)
 
 
-
-testlist = [0, 2, 6, 8, 15, 17, 23, 30, 32, 42]
-print(binary_search(testlist, 15))
-print(binary_search(testlist, 25))
+if __name__=="__main__":
+    testlist = [0, 2, 6, 8, 15, 17, 23, 30, 32, 42]
+    
+    print(binary_search(testlist, 15))
+    print(binary_search(testlist, 25))

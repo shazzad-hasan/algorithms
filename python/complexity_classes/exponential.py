@@ -1,6 +1,6 @@
 def fibonacci(n):
     """ 
-    Take in a positive integer and return nth fibonacci number 
+    Takes in a positive integer and return nth fibonacci number 
     
     Complexity: O(2^n)
     

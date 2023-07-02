@@ -12,7 +12,8 @@ def selection_sort(L):
                 L[suffixSt], L[i] = L[i], L[suffixSt]
                 
         suffixSt += 1
-        
-testlist = [54,26,93,17,77,31,0,44,55,20]
-selection_sort(testlist)
-print(testlist)
+
+if __name__=="__main__":
+    testlist = [54,26,93,17,77,31,0,44,55,20]
+    selection_sort(testlist)
+    print(testlist)

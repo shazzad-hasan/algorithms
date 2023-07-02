@@ -56,37 +56,37 @@ class Array:
     def delete_last(self):
         return self.delete_at(len(self)-1)
         
+if __name__=="__main__":
+    my_array = Array()
+
+    L = [31, 77, "hello", 54, "world"]
+    my_array.build(L)
+
+
+    for e in my_array:
+        print(e)
+
+    my_array.set_at(2, 'cat')
+    print()
+    print(my_array.get_at(2))
+
+    my_array.insert_at(3, 'Jon')
+    print(my_array.get_at(3))
+
+    my_array.delete_at(3)
+    print(my_array.get_at(3))
+
+    my_array.insert_first(0)
+    my_array.insert_last('dog')
+    print()
+    for e in my_array:
+        print(e)
         
-my_array = Array()
-
-L = [31, 77, "hello", 54, "world"]
-my_array.build(L)
-
-
-for e in my_array:
-    print(e)
-
-my_array.set_at(2, 'cat')
-print()
-print(my_array.get_at(2))
-
-my_array.insert_at(3, 'Jon')
-print(my_array.get_at(3))
-
-my_array.delete_at(3)
-print(my_array.get_at(3))
-
-my_array.insert_first(0)
-my_array.insert_last('dog')
-print()
-for e in my_array:
-    print(e)
-    
-my_array.delete_first()
-my_array.delete_last()
-print()
-for e in my_array:
-    print(e)
+    my_array.delete_first()
+    my_array.delete_last()
+    print()
+    for e in my_array:
+        print(e)
 
 
 

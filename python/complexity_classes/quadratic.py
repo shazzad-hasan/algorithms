@@ -1,6 +1,6 @@
 def square(n):
     """
-    Take in a positive integer integer, n and return  n^2
+    Takes in a positive integer integer, n and return  n^2
     
     Complexity: O(n^2)
 

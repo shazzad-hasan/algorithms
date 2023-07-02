@@ -1,6 +1,6 @@
 def intToStr(num):
     """ 
-    Take in an integer and convert it to a string.
+    Takes in an integer and convert it to a string.
     
     Complexity: O(log(num))
         

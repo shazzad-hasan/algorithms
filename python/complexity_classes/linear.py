@@ -1,6 +1,6 @@
 def factorial(n):
     """ 
-    Take in a number n, assume n>0 and return n!
+    Takes in a number n, assume n>0 and return n!
     
     Complexity: O(n)
     

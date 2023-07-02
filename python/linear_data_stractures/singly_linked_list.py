@@ -73,26 +73,27 @@ class Singly_Linked_List:
     def remove_last(self):
         return self.remove_at(len(self)-1)
 
+if __name__=="__main__":
 
-L = Singly_Linked_List()
+    L = Singly_Linked_List()
 
-L.insert_first(31)
-L.insert_first(77)
-L.build([54, 24, 93, 17])
+    L.insert_first(31)
+    L.insert_first(77)
+    L.build([54, 24, 93, 17])
 
-for l in L:
-    print(l) 
+    for l in L:
+        print(l) 
 
-print()
-print(len(L))
-print(L.get_at(1))
-L.set_at(1, 100)
-print(L.get_at(1))
-L.remove_first()
-print(L.get_at(0))
-L.remove_at(0)
-print(L.get_at(0))
-L.insert_last(15)
-print(L.get_at(len(L)-1))
-print(L.remove_last())
-print(L.get_at(len(L)-1))
+    print()
+    print(len(L))
+    print(L.get_at(1))
+    L.set_at(1, 100)
+    print(L.get_at(1))
+    L.remove_first()
+    print(L.get_at(0))
+    L.remove_at(0)
+    print(L.get_at(0))
+    L.insert_last(15)
+    print(L.get_at(len(L)-1))
+    print(L.remove_last())
+    print(L.get_at(len(L)-1))
