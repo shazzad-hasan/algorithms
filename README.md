@@ -33,8 +33,8 @@
 - Dynamic Array  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/dynamic_array.py)]
 - Singly Linked List  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/singly_linked_list.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/singly_linked_list.cpp)]
 - Doubly Linked List
-- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)] [[cpp1](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_array.cpp)] [[cpp2](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_STL.cpp)]
-- Queue  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/queue.py)] [[cpp1](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/queue_using_array.cpp)]
+- Stack  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/stack.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/stack_using_array.cpp)] 
+- Queue  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/queue.py)] [[cpp](https://github.com/shazzad-hasan/algorithms/blob/main/cpp/linear_data_structures/queue_using_array.cpp)]
 - Hash Table  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/linear_data_stractures/hash_table.py)]
 - Double Hashing
 
