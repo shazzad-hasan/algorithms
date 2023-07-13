@@ -48,10 +48,11 @@
   - In-order
   - Pre-order
   - Post-order
+- Binary Search Tree  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
 - Binary Heap
   - Min Heap
   - Max Heap
-- Binary Search Tree  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
+- Priority Queue
 - AVL Tree
 - AVL Sort
 
