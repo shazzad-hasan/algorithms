@@ -21,11 +21,8 @@
 - Bubble Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Bubble_Sort.py)]
 - Selection Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Selection_Sort.py)]
 - Insertion Sort
-- Shell Sort
 - Merge Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/sorting/Merge_Sort.py)]
 - Quick Sort
-- Counting Sort
-- Radix Sort
 
 #### Linear Data Structures
 
@@ -44,9 +41,17 @@
 - Bisection Method  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/bisection.py)]
 - Newton's method  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/newton.py)]
 - Matrix Operations [[naive python](https://github.com/shazzad-hasan/algorithms/blob/main/python/numerics/matrix_operations.py)]
-- Gaussian Elimination
 
 #### Trees
+
+- Tree Traversal
+  - In-order
+  - Pre-order
+  - Post-order
+
+- Binary Heap
+  - Min Heap
+  - Max Heap
 
 - Binary Search Tree  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
 - AVL Tree
@@ -54,7 +59,11 @@
 
 #### Graphs
 
-- Graph [[python1](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)] [[python2](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_matrix.py)] [[python3](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_set.py)]
+- Graph 
+  - Adjacency List [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_list.py)]  
+  - Adjacency Matrix [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_matrix.py)]
+  - Adjacency Set [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/adjacency_set.py)]
+
 - Breadth-first Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/breadth_first_search.py)1] [[python2](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/bfs.py)]
 - Depth-first Search  [[python1](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/depth_first_search.py)] [[python2](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/dfs.py)]
 - Topological Sort  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/graph/topological_sort.py)]
@@ -75,4 +84,3 @@
 #### Problem Solving
 
 - [LeetCode](https://github.com/shazzad-hasan/LeetCode)
-- Project Euler
