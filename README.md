@@ -44,8 +44,9 @@
 
 #### Trees
 
-- Tree Traversal
-- Binary Search Tree  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
+- Generic Tree
+- Binary Tree
+- Binary Search Tree
 - Binary Heap
   - Min Heap
   - Max Heap
