@@ -44,8 +44,8 @@
 
 #### Trees
 
-- Generic Tree
-- Binary Tree
+- Generic Tree [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/tree.py)]
+- Binary Tree [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_tree.py)]
 - Binary Search Tree
 - Binary Heap
   - Min Heap
