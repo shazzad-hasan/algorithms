@@ -8,9 +8,6 @@ class Node:
         self.children = children
         self.parent = None
 
-    def __str__(self):
-        return self.name
-
     def add_child(self, node):
         node.parent = self
         assert isinstance(node, Node)
@@ -18,6 +15,10 @@ class Node:
 
     def display(self):
       pptree.print_tree(self,'children','name', horizontal=False)
+
+    def __str__(self):
+        return self.name
+
 
 class Tree:
     def __init__(self):
@@ -31,6 +32,7 @@ class Tree:
             if self.root is None:
                 self.root = node
         self.nodes.append(node)
+
 
 def main():
     r1 = Node("weather")
@@ -47,25 +49,19 @@ def main():
     t1.insert(Node("strong"), t1.nodes[5])
     t1.insert(Node("weak"), t1.nodes[5])
 
+    # nodes = ["weather", "sunny", "cloudy", "rainy", "humidity", "wind",
+    #           "high", "normal", "strong", "weak"]
+
     t1.root.display()
 
-    print("\n")
+    print("Nodes in the tree are:")
+    for node in t1.nodes:
+        print(node)
 
-    t2 = Tree()
-    t2.insert(Node("shame"), None)
+    print("Node at index 1: ", t1.nodes[1])
+    print("Parent of node at index 1 :", t1.nodes[1].parent)
+    print("Child of node at index 1: ", t1.nodes[1].children[0])
 
-    t2.insert(Node("conscience"), t2.nodes[0])
-    t2.insert(Node("selfdisgust"), t2.nodes[0])
-    t2.insert(Node("embarrassment"), t2.nodes[0])
-
-    t2.insert(Node("selfconsciousness"), t2.nodes[3])
-    t2.insert(Node("shamefacedness"), t2.nodes[3])
-    t2.insert(Node("chagrin"), t2.nodes[3])
-    t2.insert(Node("discomfiture"), t2.nodes[3])
-    t2.insert(Node("abashment"), t2.nodes[3])
-    t2.insert(Node("confusion"), t2.nodes[3])
-
-    t2.root.display()
 
 if __name__=="__main__":
   main()
