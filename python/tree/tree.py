@@ -8,6 +8,9 @@ class Node:
         self.children = children
         self.parent = None
 
+    def __str__(self):
+        return self.name
+
     def add_child(self, node):
         node.parent = self
         assert isinstance(node, Node)
