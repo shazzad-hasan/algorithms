@@ -35,6 +35,7 @@ class Tree:
 
 
 def main():
+    # -----  Test 1 -------
     r1 = Node("weather")
     t1 = Tree()
     t1.insert(r1, None)
@@ -61,6 +62,23 @@ def main():
     print("Node at index 1: ", t1.nodes[1])
     print("Parent of node at index 1 :", t1.nodes[1].parent)
     print("Child of node at index 1: ", t1.nodes[1].children[0])
+
+
+    # ----- Test 2 -------
+    a = Node("A")
+    b = Node("B")
+    c = Node("C")
+    d = Node("D")
+    e = Node("E")
+
+    t2 = Tree()
+    t2.insert(a, None)
+    t2.insert(b, a)
+    t2.insert(c, a)
+    t2.insert(d, c)
+    t2.insert(e, c)
+
+    t2.root.display()
 
 
 if __name__=="__main__":
