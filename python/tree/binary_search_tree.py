@@ -4,7 +4,7 @@ class Node:
         self.left = None
         self.right = None
         
-class Binary_Tree: 
+class Binary_Search_Tree: 
     def __init__(self):
         self.root = Node(None) 
     
@@ -140,42 +140,6 @@ class Binary_Tree:
             self._remove_item(node, node.left, item)
         else:
             self._remove_item(node, node.right, item)
-
-    def inorder_traversal(self): 
-        """ Return the inorder traversal of the tree """
-        if self.root is not None:
-            self._inorder_traversal(self.root)
-    
-    def _inorder_traversal(self, node): 
-        if node.left is not None:
-            self._inorder_traversal(node.left)
-        print(node.value)
-        if node.right is not None:
-            self._inorder_traversal(node.right)
-            
-    def preorder_traversal(self):
-        """ Return the pre-order traversal """
-        if self.root is not None:
-            self._preorder_traversal(self.root)
-    
-    def _preorder_traversal(self, node):
-        print(node.value)
-        if node.left is not None:
-            self._preorder_traversal(node.left)
-        if node.right is not None:
-            self._preorder_traversal(node.right)
-    
-    def postorder_traversal(self):
-        """ Return the post-order traversal """
-        if self.root is not None:
-            self._postorder_traversal(self.root)
-    
-    def _postorder_traversal(self, node):
-        if node.left is not None:
-            self._postorder_traversal(node.left)
-        if node.right is not None:
-            self._postorder_traversal(node.right) 
-        print(node.value)
         
     def get_max_value(self):
         """ Return the max value in the tree """
@@ -201,7 +165,7 @@ class Binary_Tree:
 
 if __name__=="__main__":
             
-    t = Binary_Tree()
+    t = Binary_Search_Tree()
 
     print(t.is_empty())
     t.add(10)
@@ -210,18 +174,7 @@ if __name__=="__main__":
     t.empty()
     print(t.is_empty())
 
-    """
-            8
-        /  \
-        3   10
-        /  \    \
-        1   6    14
-        / \   /
-        4   7 13
-        \
-            5
-    """
-    t = Binary_Tree()
+    t = Binary_Search_Tree()
     t.add(8)
     t.add(3)
     t.add(6)
@@ -233,15 +186,6 @@ if __name__=="__main__":
     t.add(7)
     t.add(5) 
 
-    print("inorder traversal")
-    t.inorder_traversal()
-
-    print("preorder traversal")
-    t.preorder_traversal()
-
-    print("postorder traversal")
-    t.postorder_traversal()
-
     t.search(6)
     t.search(13)
     t.search(100)
@@ -251,6 +195,3 @@ if __name__=="__main__":
     print(t.get_min_value())
 
     t.remove(6)
-
-    print("inorder traversal")
-    t.inorder_traversal() 
