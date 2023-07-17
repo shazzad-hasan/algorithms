@@ -35,7 +35,19 @@ class Tree:
 
 
 def main():
-    # -----  Test 1 -------
+    """
+                   Weather
+                /     |     \
+            Sunny   Cloudy   Rainy
+             /                  \  
+        Humidity                Wind
+        /    \                 /    \
+    High   Normal          Strong   Weak
+    
+    """
+    # nodes = ["weather", "sunny", "cloudy", "rainy", "humidity", "wind",
+    #           "high", "normal", "strong", "weak"]
+
     r1 = Node("weather")
     t1 = Tree()
     t1.insert(r1, None)
@@ -50,36 +62,16 @@ def main():
     t1.insert(Node("strong"), t1.nodes[5])
     t1.insert(Node("weak"), t1.nodes[5])
 
-    # nodes = ["weather", "sunny", "cloudy", "rainy", "humidity", "wind",
-    #           "high", "normal", "strong", "weak"]
-
+    print("Tree structure:")
     t1.root.display()
 
-    print("Nodes in the tree are:")
+    print("\nNodes in the tree are:")
     for node in t1.nodes:
         print(node)
 
-    print("Node at index 1: ", t1.nodes[1])
-    print("Parent of node at index 1 :", t1.nodes[1].parent)
-    print("Child of node at index 1: ", t1.nodes[1].children[0])
-
-
-    # ----- Test 2 -------
-    a = Node("A")
-    b = Node("B")
-    c = Node("C")
-    d = Node("D")
-    e = Node("E")
-
-    t2 = Tree()
-    t2.insert(a, None)
-    t2.insert(b, a)
-    t2.insert(c, a)
-    t2.insert(d, c)
-    t2.insert(e, c)
-
-    t2.root.display()
-
+    print("\nNode at index 1: ", t1.nodes[1])
+    print("\nParent of node at index 1 :", t1.nodes[1].parent)
+    print("\nChild of node at index 1: ", t1.nodes[1].children[0])
 
 if __name__=="__main__":
   main()
