@@ -4,7 +4,7 @@ class Node:
         self.left = None 
         self.right = None 
 
-class Binary_Tree:
+class Binary_Search_Tree:
     def __init__(self):
         self.root = Node(None)
 
@@ -68,7 +68,7 @@ def main():
        / \     /  \
       2   8   14   30
     """
-    t = Binary_Tree()
+    t = Binary_Search_Tree()
     t.add(10)
     t.add(5)
     t.add(20)
