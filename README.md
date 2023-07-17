@@ -52,7 +52,7 @@
   - Min Heap
   - Max Heap
 - Priority Queue
-- Binary Search Tree
+- Binary Search Tree [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree.py)]
 - Binary Search Tree Traversal [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_search_tree_traversal.py)]
 - AVL Tree
 - AVL Sort
