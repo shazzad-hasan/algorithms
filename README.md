@@ -45,12 +45,13 @@
 #### Trees
 
 - Generic Tree [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/tree.py)]
+- Tree Traversal [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/tree_traversal.py)]
 - Binary Tree [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/tree/binary_tree.py)]
-- Binary Search Tree
 - Binary Heap
   - Min Heap
   - Max Heap
 - Priority Queue
+- Binary Search Tree
 - AVL Tree
 - AVL Sort
 
