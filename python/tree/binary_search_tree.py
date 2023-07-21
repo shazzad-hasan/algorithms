@@ -109,7 +109,7 @@ class Binary_Search_Tree:
             self._remove_item(node, node.right, item)
     
     def _most_left_node_from_right_subtree(self, node):
-        """ Returns the left-most node from the right node """
+        """ Returns the left-most node from the right subtree """
         if node.left is None:
             return node 
         else:
