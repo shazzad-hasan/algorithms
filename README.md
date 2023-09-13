@@ -11,7 +11,7 @@
 
 #### Search Algorithms
 
-- Linear Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Linear_Search.py)]
+- Linear Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Linear_Search.py)] [[c](https://github.com/shazzad-hasan/algorithms/blob/main/c/search/Linear_Search.c)]
 - Binary Search  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Binary_Search.py)]
 - 1D Peak Finding  [[python](https://github.com/shazzad-hasan/algorithms/blob/main/python/search/Peak_Element.py)]
 - 2D Peak Finding
