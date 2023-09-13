@@ -9,7 +9,7 @@ int main(void){
     int target = 42;
     int ind = linear_search(arr, arr_size, target);
 
-    if (ind != -1){
+    if (ind != 1){
         printf("Target element %d found at index %d\n", target, ind);
     } else {
         printf("Target element %d not found\n", target);
@@ -24,5 +24,5 @@ int linear_search(int arr[], int arr_size, int target){
             return i;
         }
     }
-    return -1;
+    return 1;
 }
